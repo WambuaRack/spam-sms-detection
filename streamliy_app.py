@@ -3,6 +3,10 @@ import pandas as pd
 import string
 import re
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.linear_model import LogisticRegression
